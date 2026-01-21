@@ -31,7 +31,7 @@ const Navbar = () => {
             <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between">
                 {/* Logo */}
                 <a href="#" className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                    Portfolio.
+                    Avinash Chaurasiya
                 </a>
 
                 {/* Desktop Nav */}
@@ -47,8 +47,8 @@ const Navbar = () => {
                     ))}
                     <div className="h-6 w-px bg-white/10 mx-2" />
                     <div className="flex gap-4">
-                        <a href="#" className="text-neutral-400 hover:text-white transition-colors"><Github size={20} /></a>
-                        <a href="#" className="text-neutral-400 hover:text-white transition-colors"><Linkedin size={20} /></a>
+                        <a href="https://github.com/nvavinash" target="_blank" className="text-neutral-400 hover:text-white transition-colors"><Github size={20} /></a>
+                        <a href="https://www.linkedin.com/in/avinashnv" target="_blank" className="text-neutral-400 hover:text-white transition-colors"><Linkedin size={20} /></a>
                     </div>
                 </div>
 
